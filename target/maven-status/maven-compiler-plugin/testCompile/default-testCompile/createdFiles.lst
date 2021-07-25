@@ -1,0 +1,9 @@
+com/inetBanking/utilities/ReadConfig.class
+com/inetBanking/utilities/Reporting.class
+com/inetBanking/testcases/TC_AddNewCustomer_TC003.class
+com/inetBanking/testcases/TC_LoginTest.class
+com/inetBanking/testcases/BaseClass.class
+com/inetBanking/pages/LoginPage.class
+com/inetBanking/utilities/ExcelUtils.class
+com/inetBanking/pages/NewCustomerPage.class
+com/inetBanking/testcases/TC_LoginTest_DDT.class

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="24.268" tests="6" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="JOB_NAME" value="iNetBanking_Maven"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="PWD" value="/Users/bhuvanavignesh/Desktop/QA_Automation/Jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/iNetBanking_Maven/4/display/redirect?page=tests"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/bhuvanavignesh/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/bhuvanavignesh/Desktop/QA_Automation/Chrome:/Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="c21a03d9197cdb55"/>
+    <property name="POM_ARTIFACTID" value="inetBanking"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="825BA898-BEEB-46FE-ADBF-9E0CCC15F8DC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="inetBanking"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="11.0.8+10-adhoc.admin.jdk11u"/>
+    <property name="user.name" value="bhuvanavignesh"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="LaunchInstanceID" value="394C18BE-8371-4131-8283-1E92FF736453"/>
+    <property name="SECURITYSESSIONID" value="186a9"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="iNetBanking_Maven"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/iNetBanking_Maven/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="TMPDIR" value="/var/folders/by/0nhqmhz11g3b1ymm3gtbb25m0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home/lib"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="JAVA_MAIN_CLASS_2065" value="Main"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="BUILD_ID" value="4"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="maven.conf" value="/Users/bhuvanavignesh/Desktop/QA_Automation/apache-maven-3.8.1/conf"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.16"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/iNetBanking_Maven/4/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/iNetBanking_Maven/4/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.8+10-adhoc.admin.jdk11u"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/iNetBanking_Maven/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="bhuvanavignesh"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/bhuvanavignesh"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_GROUPID" value="inetBanking"/>
+    <property name="user.home" value="/Users/bhuvanavignesh"/>
+    <property name="BUILD_TAG" value="jenkins-iNetBanking_Maven-4"/>
+    <property name="JENKINS_SERVER_COOKIE" value="c21a03d9197cdb55"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/bhuvanavignesh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="maven.home" value="/Users/bhuvanavignesh/Desktop/QA_Automation/apache-maven-3.8.1"/>
+    <property name="java.class.path" value="/Users/bhuvanavignesh/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/bhuvanavignesh/Desktop/QA_Automation/apache-maven-3.8.1/boot/plexus-classworlds-2.6.0.jar:/Users/bhuvanavignesh/Desktop/QA_Automation/apache-maven-3.8.1/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/bhuvanavignesh/Desktop/QA_Automation/apache-maven-3.8.1 /Users/bhuvanavignesh/.jenkins/war/WEB-INF/lib/remoting-4.7.jar /Users/bhuvanavignesh/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/bhuvanavignesh/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 56516"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/openlogic-openjdk-11.jdk/Contents/Home/bin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="/Users/bhuvanavignesh/Desktop/QA_Automation/apache-maven-3.8.1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="/var/folders/by/0nhqmhz11g3b1ymm3gtbb25m0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/bhuvanavignesh/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/bhuvanavignesh/Desktop/QA_Automation/apache-maven-3.8.1/bin"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="OLDPWD" value="/Users/bhuvanavignesh"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/iNetBanking_Maven/4/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.JLha1hENXG/Listeners"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/bhuvanavignesh/Desktop/QA_Automation/inetBanking"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/iNetBanking_Maven/"/>
+    <property name="MAVEN_HOME" value="/Users/bhuvanavignesh/Desktop/QA_Automation/apache-maven-3.8.1"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="4"/>
+    <property name="TERM_PROGRAM_VERSION" value="440"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="__CFBundleIdentifier" value="com.apple.Terminal"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/bhuvanavignesh/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/bhuvanavignesh/.jenkins/jobs/iNetBanking_Maven/workspace@tmp"/>
+    <property name="WORKSPACE" value="/Users/bhuvanavignesh/.jenkins/jobs/iNetBanking_Maven/workspace"/>
+    <property name="maven3.interceptor.common" value="/Users/bhuvanavignesh/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="USER" value="bhuvanavignesh"/>
+  </properties>
+  <testcase name="loginTest" classname="com.inetBanking.testcases.TC_LoginTest" time="0.911"/>
+  <testcase name="LoginTestDDT" classname="com.inetBanking.testcases.TC_LoginTest_DDT" time="8.386"/>
+  <testcase name="LoginTestDDT" classname="com.inetBanking.testcases.TC_LoginTest_DDT" time="3.356">
+    <failure message="unexpected alert open: {Alert text : User or Password is not valid}&#10;  (Session info: chrome=91.0.4472.164): User or Password is not valid&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Bhuvanas-MacBook-Pro.local&apos;, ip: &apos;2603:8000:b541:d582:0:0:0:ddd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/by/0nhqmhz11g3...}, goog:chromeOptions: {debuggerAddress: localhost:56555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c6014ce94daacc80ce8abe19bb1e5a3e" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=91.0.4472.164): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Bhuvanas-MacBook-Pro.local', ip: '2603:8000:b541:d582:0:0:0:ddd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/by/0nhqmhz11g3...}, goog:chromeOptions: {debuggerAddress: localhost:56555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c6014ce94daacc80ce8abe19bb1e5a3e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.inetBanking.testcases.BaseClass.captureScreen(BaseClass.java:75)
+	at com.inetBanking.testcases.TC_LoginTest_DDT.LoginTestDDT(TC_LoginTest_DDT.java:27)
+</failure>
+  </testcase>
+  <testcase name="LoginTestDDT" classname="com.inetBanking.testcases.TC_LoginTest_DDT" time="7.882"/>
+  <testcase name="LoginTestDDT" classname="com.inetBanking.testcases.TC_LoginTest_DDT" time="3.359">
+    <failure message="unexpected alert open: {Alert text : User or Password is not valid}&#10;  (Session info: chrome=91.0.4472.164): User or Password is not valid&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Bhuvanas-MacBook-Pro.local&apos;, ip: &apos;2603:8000:b541:d582:0:0:0:ddd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/by/0nhqmhz11g3...}, goog:chromeOptions: {debuggerAddress: localhost:56555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c6014ce94daacc80ce8abe19bb1e5a3e" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=91.0.4472.164): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Bhuvanas-MacBook-Pro.local', ip: '2603:8000:b541:d582:0:0:0:ddd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/by/0nhqmhz11g3...}, goog:chromeOptions: {debuggerAddress: localhost:56555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c6014ce94daacc80ce8abe19bb1e5a3e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.inetBanking.testcases.BaseClass.captureScreen(BaseClass.java:75)
+	at com.inetBanking.testcases.TC_LoginTest_DDT.LoginTestDDT(TC_LoginTest_DDT.java:27)
+</failure>
+  </testcase>
+  <testcase name="addNewCustomer" classname="com.inetBanking.testcases.TC_AddNewCustomer_TC003" time="14.971"/>
+</testsuite>
