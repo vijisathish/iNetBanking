@@ -1,0 +1,1 @@
+This is a sample file to pull from the github to the git local repository and then into the local workspace to view in eclipse
