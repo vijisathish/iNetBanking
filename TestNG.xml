@@ -12,7 +12,7 @@
   <parameter name="browser" value="chrome">
   </parameter>
     <classes>
-       <class name="com.inetBanking.testcases.TC_LoginTest"/> 
+       <class name="com.inetBanking.testcases.TC_LoginTest"/>
        <class name="com.inetBanking.testcases.TC_LoginTest_DDT"/>
        <class name="com.inetBanking.testcases.TC_AddNewCustomer_TC003"/>
        
