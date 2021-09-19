@@ -9,7 +9,7 @@
 </listeners>
 
   <test name="eBanking Chrome App test">
-  <parameter name="browser" value="chrome">
+  <parameter name="browser" value="firefox">
   </parameter>
     <classes>
        <class name="com.inetBanking.testcases.TC_LoginTest"/>
